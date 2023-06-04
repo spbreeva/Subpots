@@ -2,10 +2,10 @@ import pandas as pd
 import matplotlib.pyplot as plt
 from PIL import Image
 
-img1 = Image.open('points_price_plot.png')
-img2 = Image.open('province_plot.png')
-img3 = Image.open('province_price_plot.png')
-img4 = Image.open('province_variety_plot.png')
+img1 = Image.open('all_graths/points_variety_plot.png')
+img2 = Image.open('all_graths/province_plot.png')
+img3 = Image.open('all_graths/province_price_plot.png')
+img4 = Image.open('all_graths/variety_province_plot.png')
 
 
 img1_size = img1.size

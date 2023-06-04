@@ -7,4 +7,4 @@ from function import plot_table
 pd.df = pd.read_csv('graths/winemag-data_first150k.csv')
 
 
-plot_table(pd.df, 'price', 'designation', 'red')
+plot_table(pd.df, 'province', 'price', 'red')
